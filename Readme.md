@@ -10,7 +10,7 @@ First of all, I really appreciate you guys and efforts you have made to creat su
 1. I have added  `immudb`  executable path in global envrionment path variables
 2. Clone this repository
 3. Observe configuration variables of immundb modified in `immdub.toml` file. Specifically note `token-expiry-time` to 1 minute, so i can test faster. I also made it to use `db` folder in the current directory in order to prevent polluting global disk storage.
-4. Run `npm install` in project directory to download dependencies.
+4. Run `npm install` in backend directory to download dependencies.
 5. Run `immudb --config ./immudb.toml --detached` to start `immudb` process, reading config from `immudb.toml` & running in detached mode.
 ```shell
  _                               _ _     
