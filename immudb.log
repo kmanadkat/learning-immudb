@@ -1,0 +1,75 @@
+immudb 2021/05/31 20:24:06 INFO: 
+ _                               _ _     
+(_)                             | | |    
+ _ _ __ ___  _ __ ___  _   _  __| | |__  
+| | '_ ` _ \| '_ ` _ \| | | |/ _` | '_ \ 
+| | | | | | | | | | | | |_| | (_| | |_) |
+|_|_| |_| |_|_| |_| |_|\__,_|\__,_|_.__/ 
+
+immudb 1.0.0
+Commit  : fb5398fe7b7d69dd352685d477fbd01a86b64568
+Built by: cleaversdev@gmail.com
+Built at: Fri, 21 May 2021 16:29:30 IST
+================ Config ================
+Data dir         : ./db
+Address          : 127.0.0.1:8001
+Metrics address  : 127.0.0.1:9497/metrics
+Config file      : configs/immudb.toml
+PID file         : ./pid.log
+Log file         : ./immudb.log
+Max recv msg size: 33554432
+Auth enabled     : true
+Dev mode         : false
+Default database : defaultdb
+Maintenance mode : false
+Synced mode      : false
+----------------------------------------
+Superadmin default credentials
+   Username      : immudb
+   Password      : immudb
+========================================
+
+immudb 2021/05/31 20:24:06 INFO: Indexing in progress at 'db/systemdb'
+immudb 2021/05/31 20:24:06 INFO: Binary Linking up to date at 'db/systemdb'
+immudb 2021/05/31 20:24:06 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:24:06 INFO: Flushing index 'db/systemdb/index' successfully completed
+immudb 2021/05/31 20:24:06 INFO: Admin user immudb successfully created
+immudb 2021/05/31 20:24:06 INFO: Indexing in progress at 'db/defaultdb'
+immudb 2021/05/31 20:24:06 INFO: Binary Linking up to date at 'db/defaultdb'
+immudb 2021/05/31 20:24:06 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:24:06 INFO: Flushing index 'db/systemdb/index' successfully completed
+immudb 2021/05/31 20:24:06 INFO: Started with an empty database
+immudb 2021/05/31 20:24:06 INFO: Webconsole enabled: 127.0.0.1:8002
+immudb 2021/05/31 20:24:06 INFO: Web API server enabled on 127.0.0.1:8002/api (http)
+immudb 2021/05/31 20:24:06 INFO: You can now use immuadmin and immuclient CLIs to login with the immudb superadmin user and start using immudb.
+immudb 2021/05/31 20:25:04 INFO: Indexing in progress at 'db/blockchain'
+immudb 2021/05/31 20:25:04 INFO: Binary Linking up to date at 'db/blockchain'
+immudb 2021/05/31 20:25:04 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:25:04 INFO: Flushing index 'db/systemdb/index' successfully completed
+immudb 2021/05/31 20:27:00 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:27:00 INFO: Flushing index 'db/systemdb/index' successfully completed
+immudb 2021/05/31 20:27:00 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:27:00 INFO: Flushing not needed at 'db/systemdb/index'
+immudb 2021/05/31 20:27:01 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:27:01 INFO: Flushing not needed at 'db/systemdb/index'
+immudb 2021/05/31 20:27:04 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:27:04 INFO: Flushing not needed at 'db/systemdb/index'
+immudb 2021/05/31 20:27:04 INFO: Flushing index 'db/systemdb/index'...
+immudb 2021/05/31 20:27:04 INFO: Flushing not needed at 'db/systemdb/index'
+immudb 2021/05/31 20:27:41 INFO: 1 transaction/s to be indexed at 'db/blockchain'
+immudb 2021/05/31 21:09:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:09:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:09:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
+immudb 2021/05/31 21:10:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:10:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:10:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
+immudb 2021/05/31 21:11:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:11:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:11:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
+immudb 2021/05/31 21:12:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:12:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:12:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
+immudb 2021/05/31 21:13:22 INFO: 1 transaction/s to be indexed at 'db/blockchain'
+immudb 2021/05/31 21:13:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:13:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:13:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
