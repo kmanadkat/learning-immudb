@@ -43,7 +43,7 @@ Superadmin default credentials
    Password      : immudb
 ========================================
 ```
-6. Run `node initialSetup.js` in project directory.
+6. Run `node initialSetup.js` in backend directory.
 ```shell
 immuDB user login : immudb {
   token: 'v2.public.eyJkYXRhYmFzZSI6IjAiLCJleHAiOiIyMDIxLTA1LTMxVDIwOjI2OjA0KzA1OjMwIiwic3ViIjoiaW1tdWRiIn1w66ur0mPlTBZZAh-TU21qrlJyoqRZQoo4xQbU_aA8Mvfb2DJld8CaQfT3EghRir6gSIE5NFAZTgrJgmiV6FEI.aW1tdWRi',
@@ -66,7 +66,7 @@ immuDB User create : blockchain {
   convertedPrimitiveFields_: {}
 }
 ```
-7. Run `node verifiedSetData.js` in project directory to set data first time
+7. Run `node verifiedSetData.js` in backend directory to set data first time
 ```shell
 immuDB user login : blockchain {
   token: 'v2.public.eyJkYXRhYmFzZSI6Ii0xIiwiZXhwIjoiMjAyMS0wNS0zMVQyMDoyODo0MSswNTozMCIsInN1YiI6ImJsb2NrY2hhaW4ifVn4993REDQPRgWZcAKgSe_cYKdFZwZXBM6sex9Y5vPMIGvmWt1kEHH5nM47C2X7J_paffm92UWkexg0g_fAaw8.aW1tdWRi',
@@ -85,7 +85,7 @@ immuDB verified set student123: Robin {
   blroot: 'AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA='
 }
 ```
-8. Run `node verifiedGetData.js` in project directory within 1 minute of conducting above step (7).
+8. Run `node verifiedGetData.js` in backend directory within 1 minute of conducting above step (7).
 ```shell
 immuDB user login : blockchain {
   token: 'v2.public.eyJkYXRhYmFzZSI6Ii0xIiwiZXhwIjoiMjAyMS0wNS0zMVQyMDoyOTo0OSswNTozMCIsInN1YiI6ImJsb2NrY2hhaW4ifTS0sRYw6NB98Y-tEMdk-yuSbQWLuaYcoDI9EENuxPSbm-KfMrhCs_5v2D7yrY6StsGvla7mvt_uQKU2nYDM6A8.aW1tdWRi',
@@ -97,6 +97,7 @@ immuDB DB create : blockchain {
 immuDB verified get student123 { tx: 1, key: 'student123', value: 'Robin', referencedby: undefined }
 ```
 The data could be retrieved without any issues.
+
 9. Wait for atleast 5 minutes & execute `node verifiedGetData.js` again. This time you would see error like below:
 ```shell
 

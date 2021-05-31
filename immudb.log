@@ -73,3 +73,9 @@ immudb 2021/05/31 21:13:22 INFO: 1 transaction/s to be indexed at 'db/blockchain
 immudb 2021/05/31 21:13:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
 immudb 2021/05/31 21:13:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
 immudb 2021/05/31 21:13:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
+immudb 2021/05/31 21:14:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:14:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:14:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
+immudb 2021/05/31 21:15:48 ERROR: error updating db size metric for db defaultdb: error walking dir db/defaultdb to read it's size: lstat db/defaultdb: no such file or directory
+immudb 2021/05/31 21:15:48 ERROR: error updating db size metric for db blockchain: error walking dir db/blockchain to read it's size: lstat db/blockchain: no such file or directory
+immudb 2021/05/31 21:15:48 ERROR: error updating db size metric for system db systemdb: error walking dir db/systemdb to read it's size: lstat db/systemdb: no such file or directory
