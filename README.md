@@ -7,10 +7,10 @@ This mini project is a wrap up of Express Js server around immudb to have a REST
 Node v14.15.1
 npm 7.14.0
 
-immudb 1.0.0
-Commit  : fb5398fe7b7d69dd352685d477fbd01a86b64568
-Built by: cleaversdev@gmail.com
-Built at: Fri, 21 May 2021 16:29:30 IST
+immudb 1.0.0 <br />
+Commit  : fb5398fe7b7d69dd352685d477fbd01a86b64568 <br />
+Built by: cleaversdev@gmail.com <br />
+Built at: Fri, 21 May 2021 16:29:30 IST <br />
 
 PORTs 8001, 8002, 8003 are expected to be available.
 
@@ -38,7 +38,7 @@ You can now using postman to register and retrieve data. Collection you imported
 
 ### Registering key-value Pair
 
-```json
+```js
 URL : http://localhost:8003/immudb/api/setdata
 
 header : {
@@ -54,7 +54,7 @@ body:
 
 ### Retrieving key-value Pair
 
-```json
+```js
 URL : http://localhost:8003/immudb/api/getdata
 
 header : {
