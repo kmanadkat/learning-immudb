@@ -1,0 +1,107 @@
+{
+	"info": {
+		"_postman_id": "1bcdae0b-aec1-46d3-8778-6dd4caccc4d4",
+		"name": "Blockchain Immudb",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Data",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "{{userToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"student2\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URI}}/immudb/api/getdata",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"immudb",
+						"api",
+						"getdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Set Data Copy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "{{userToken}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"key\": \"student2\",\n    \"value\": \"robert\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{URI}}/immudb/api/setdata",
+					"host": [
+						"{{URI}}"
+					],
+					"path": [
+						"immudb",
+						"api",
+						"setdata"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "URI",
+			"value": "http://localhost:8003"
+		},
+		{
+			"key": "userToken",
+			"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7InJvbGVDb2RlIjoyMTAsImlkIjoiMTIzIn0sImlhdCI6MTYyMjU0MzI1NiwiZXhwIjoxNjIyODAyNDU2fQ.LZ0xpX323eGJdS9PBWTkrY3Iac9lSE-a2bj5pS4ZN6E"
+		}
+	]
+}

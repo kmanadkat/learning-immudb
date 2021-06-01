@@ -1,16 +1,24 @@
 {
-  "name": "immudb-practice",
+  "name": "blockchainimmudb",
   "version": "1.0.0",
-  "description": "",
-  "main": "initialSetup.js",
+  "description": "Immudb RESTful service",
+  "main": "immudb_express.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node immudb_express.js",
+    "server": "nodemon immudb_express.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "immudb",
+    "node",
+    "express"
+  ],
+  "author": "Krupesh",
   "license": "ISC",
   "dependencies": {
-    "immudb-node": "^1.0.10-rc.6"
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "immudb-node": "^1.0.10-rc.6",
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
